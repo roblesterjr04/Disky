@@ -18,6 +18,11 @@ Via Composer
 $ composer require roblesterjr04/disky
 ```
 
+Add Service Provider to `config/app.php`
+``` php
+roblesterjr04\Disky\DiskyServiceProvider::class,
+```
+
 ## Usage
 
 ``` php

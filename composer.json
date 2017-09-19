@@ -1,12 +1,17 @@
 {
-    "name": "roblesterjr04/Disky",
+    "name": "roblesterjr04/disky",
     "type": "library",
     "description": "Disky is a simple package of plugins for Laravel Flysystem. But right now it just allows copying from one disk to another.",
     "keywords": [
         "roblesterjr04",
-        "Disky"
+        "Disky",
+        "flysystem",
+        "laravel",
+        "storage",
+        "copy",
+        "disk"
     ],
-    "homepage": "https://github.com/roblesterjr04/Disky",
+    "homepage": "https://github.com/roblesterjr04/disky",
     "license": "MIT",
     "authors": [
         {
@@ -27,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "roblesterjr04\\Disky\\": "src"
+            "roblesterjr04\\disky\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "roblesterjr04\\Disky\\": "tests"
+            "roblesterjr04\\disky\\": "tests"
         }
     },
     "scripts": {

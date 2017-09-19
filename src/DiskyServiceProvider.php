@@ -1,6 +1,6 @@
 <?php
 
-namespace roblesterjr04\Disky;
+namespace roblesterjr04\disky;
 
 use Illuminate\Support\ServiceProvider;
 use Storage;

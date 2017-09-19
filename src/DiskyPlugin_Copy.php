@@ -68,9 +68,8 @@ class DiskyPlugin_Copy implements PluginInterface
 			    }
 			    
 		    }
-		    
+		    unset($fileContents);
 	    }
-	    //$this->filesystem->delete($path);
 	    
     }
 }
